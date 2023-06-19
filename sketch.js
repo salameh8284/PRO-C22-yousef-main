@@ -36,6 +36,12 @@ function setup() {
  // playerArcher =  PlayerArcher( 340, playerBase.position.y - 112, 120, 120);
  // playerArcher = new PlayerArcher( );
 
+ playerArcher2 = new PlayerArcher( 340, 700, 120, 120);
+ playerArcher3 = new PlayerArcher( 700, 700, 120, 120);
+ playerArcher4 = new PlayerArcher( 700, 200, 120, 120);
+
+ //player2 = new Player (400,playerBase.position.y + 112, 120, 120);
+  // Why it is not working?
 }
 
 function draw() {
@@ -49,6 +55,10 @@ function draw() {
   // playerArcher.display;
   // playerArcherdisplay();
   playerArcher.display();
+  playerArcher2.display();
+  playerArcher3.display();
+  playerArcher4.display();
+  //player2.display();
   // display();
 
   // Title
